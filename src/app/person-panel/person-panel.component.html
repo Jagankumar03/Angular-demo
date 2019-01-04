@@ -1,0 +1,9 @@
+<div>
+  <app-person-list (rowSelected)="onItemSelect($event)"></app-person-list>
+</div>
+<div>
+  <app-person-info [rowSelected]="selectedRow"></app-person-info>
+</div>
+
+<!-- (addSelected)="onAddSelect($event)" -->
+<!-- [isAddSelect]="isAddSelect" -->

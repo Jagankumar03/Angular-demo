@@ -1,0 +1,10 @@
+#header-container {
+    background-color: grey;
+    height: 38px;
+}
+
+h4 {
+    text-align: center;
+    font-family: inherit;
+    color: blanchedalmond;
+}

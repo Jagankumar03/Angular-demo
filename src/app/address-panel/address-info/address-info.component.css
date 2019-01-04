@@ -1,0 +1,22 @@
+.entity-information{
+    background-color: gainsboro;
+    height: 462px;
+}
+
+#street{
+    position: absolute;
+    left: 40%;
+    bottom: 345px;
+}
+
+#city {
+    position: absolute;
+    left: 40.75%;
+    bottom: 304px;
+}
+
+#postalCode {
+    position: absolute;
+    left: 38%;
+    bottom: 265px;
+}

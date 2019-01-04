@@ -1,0 +1,24 @@
+<div class="entity-list">
+  <table id="table">
+      <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">FirstName</th>
+        <th scope="col">LastName</th>
+        <th scope="col">Email-id</th>
+        <th scope="col">isAdmin</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  (click)="rowsSelected(person)" *ngFor="let person of person; let i =index">
+        <td>{{person.id}}</td>
+        <td>{{person.firstName}}</td>
+        <td>{{person.lastName}}</td>
+        <td>{{person.email}}</td>
+        <td>{{person.isAdmin}}</td>
+        <button type="button" id="delete" (click)="destroy(i)">Delete</button>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" id="add" (click)="onAddSelect($event)">Add</button>
+</div>

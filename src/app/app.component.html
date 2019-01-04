@@ -1,0 +1,7 @@
+<app-header></app-header>
+<app-entity (valueChange)="onSelectEntity($event)"></app-entity>
+<app-person-panel  *ngIf="selectedEntity === 'person'; else address"></app-person-panel>
+<ng-template #address>
+  <app-address-panel></app-address-panel>
+</ng-template>
+<router-outlet></router-outlet>

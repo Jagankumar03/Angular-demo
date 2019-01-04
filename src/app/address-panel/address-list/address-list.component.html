@@ -1,0 +1,20 @@
+<div class="entity-list">
+    <table id="table">
+        <thead>
+        <tr>
+          <th scope="col">Street</th>
+          <th scope="col">City</th>
+          <th scope="col">PostalCode</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let address of address; let i = index" (click)="rowsSelected(address)">
+          <td>{{address.street}}</td>
+          <td>{{address.city}}</td>
+          <td>{{address.postalCode}}</td>
+          <td><button type="button" (click)="destroy(i)" id="Delete">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  <button type="button" id="add" (click)="onAddSelect($event)">Add</button>
+</div>

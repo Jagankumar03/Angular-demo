@@ -1,0 +1,18 @@
+.entity {
+    position: absolute;
+    background-color: aquamarine;
+    width: 12%;
+    height: 96%;
+}
+
+#person-button {
+    position: absolute;
+    top: 9%;
+    left: 27%;
+}
+
+#address-button {
+    position: absolute;
+    top: 22%;
+    left: 25%;
+}

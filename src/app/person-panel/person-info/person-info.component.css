@@ -1,0 +1,35 @@
+.entity-information{
+    background-color: gainsboro;
+    height: 462px;
+}
+
+#id{
+    position: absolute;
+    left: 40%;
+    bottom: 345px;
+
+}
+
+#firstName {
+    position: absolute;
+    left: 37%;
+    bottom: 304px;
+}
+
+#lastName {
+    position: absolute;
+    left: 37%;
+    bottom: 265px;
+}
+
+#email {
+    position: absolute;
+    left: 38.75%;
+    bottom: 224px;
+}
+
+#isAdmin {
+    position: absolute;
+    left: 37.75%;
+    bottom: 182px;
+}

@@ -1,0 +1,29 @@
+[ {
+    "id": 1,
+    "firstName": "Jagan",
+    "lastName": "kumar",
+    "email": "jaggie696@gmail.com",
+    "isAdmin": 1
+  },
+  {
+    "id": 2,
+    "firstName": "liza",
+    "lastName": "liz",
+    "email": "ghosal@gmail.com",
+    "isAdmin": 1
+  },
+  {
+    "id": 3,
+    "firstName": "vinoth",
+    "lastName": "ari",
+    "email": "vino@gmail.com",
+    "isAdmin": 1
+  },
+  {
+    "id": 4,
+    "firstName": "karthick",
+    "lastName": "kar",
+    "email": "kar@gmail.com",
+    "isAdmin": 1
+  }
+]

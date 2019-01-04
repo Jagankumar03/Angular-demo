@@ -1,0 +1,26 @@
+.entity-list{
+    background-color: beige;
+    height: 448px;
+}
+
+#table {
+    position: fixed;
+    left: 38%;
+    top: 16%;
+}
+
+#delete {
+    color: red;
+}
+
+table, th , td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%
+}
+
+#add {
+  position: absolute;
+  left: 66%;
+  top: 14%;
+}

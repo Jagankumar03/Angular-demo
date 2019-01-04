@@ -1,0 +1,25 @@
+[ {
+    "id": 1,
+    "street": "minus",
+    "city": "chennai",
+    "postalCode": 600089
+  },
+  {
+    "id": 2,
+    "street": "swiz",
+    "city": "chennai",
+    "postalCode": 600087
+  },
+  {
+    "id": 3,
+    "street": "america",
+    "city": "chennai",
+    "postalCode": 600086
+  },
+  {
+    "id": 4,
+    "street": "radha nagar",
+    "city": "chennai",
+    "postalCode": 600089
+  }
+]
